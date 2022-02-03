@@ -1,0 +1,16 @@
+.input-item {
+    width: 100%;
+    background-color: inherit;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    text-align: justify;
+    text-transform: capitalize;
+}

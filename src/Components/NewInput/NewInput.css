@@ -1,0 +1,75 @@
+.form-format {
+    margin-bottom: 1rem;
+}
+
+.input-form {
+    width: 60vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-controls {
+    margin-bottom: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.2rem;
+}
+
+.form-control label {
+    margin-bottom: 0.5rem;
+    text-align: inherit;
+    color: inherit;
+    font-weight: bold;
+}
+
+.form-control input {
+    padding: 0.3rem;
+    text-align: justify;
+    font-size: inherit;
+    border: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.form-control input:focus {
+    border: 2px solid #ccc;
+    background-color: rgba(204, 204, 204, 0.233);
+}
+
+:focus-visible {
+    outline: 2px solid rgb(109, 107, 107);
+}
+
+.button-wrapper {
+    width: 100%;
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-button {
+    padding: 0.5rem;
+    background-color: rgb(51, 9, 105);
+    font-size: inherit;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5 ease-in-out;
+}
+
+.input-button:hover {
+    background-color: rgb(163, 4, 110);
+}

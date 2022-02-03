@@ -1,14 +1,14 @@
-.App {
-    /* background-color: rgb(208, 208, 247);*/
-    background-color: black;
-    text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-.App-header {
+.App {
+    min-height: 100vh;
+    background-color: rgb(20, 18, 18);
+    text-align: justify;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
-    font-size: calc(10px + 2vmin);
-    font-weight: bold;
-    color: rgb(27, 27, 27);
+    flex-direction: column;
+    /*padding: 3rem;*/
 }
